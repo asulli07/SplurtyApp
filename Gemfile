@@ -37,4 +37,5 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+#Added 10/4/16
+gem 'rails_12factor', group: :production
