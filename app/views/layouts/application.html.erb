@@ -30,7 +30,22 @@
 
   <br class="clear">
 
+<!--Begin Page Content-->
+<div class="container">
 <%= yield %>
+</div>
+  
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to 'This isn\'t enough, I need more...','#', class:"next-quote" %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+      Proudly built by <a href="http://alexandersullivan.getforge.io/">Alex Sullivan</a>
+    </div>
+    </p>
+  </div>
+</div>
 
 </body>
 </html>
